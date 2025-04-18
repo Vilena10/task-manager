@@ -1,0 +1,86 @@
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.container {
+    background-color: beige;
+    border: blue 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.task {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+#form-create-task {
+    width: 200px;
+    background-color: beige;
+    border: blue 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+#form-create-task input {
+    margin-top: 10px;
+}
+#form-search-input {
+    width: 200px;
+    background-color: beige;
+    border: blue 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+#form-search-input input {
+    margin-top: 10px;
+}
+.immediate::after {
+    content: "!";
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.btn1, 
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: beige;
+    border: blue 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#btn-clear {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: beige;
+    border: blue 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn-remove,
+.btn-edit {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    color: blue;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-remove:hover,
+.btn-remove:focus,
+.btn-edit:hover,
+.btn-edit:focus {
+    color: black;
+    transform: scale(1.1);
+}
